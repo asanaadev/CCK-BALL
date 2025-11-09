@@ -58,18 +58,6 @@
         flavor = "tap-preferred";
     };
 
-    behaviors {
-        smart_mb1: smart_mouse1 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SMART_MOUSE1";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            flavor = "tap-preferred";
-            bindings = <&mkp>, <&mmb>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
