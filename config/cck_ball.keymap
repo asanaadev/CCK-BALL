@@ -16,7 +16,6 @@
     acceleration-exponent = <1>;      // changed from 0 to 1
     time-to-max-speed-ms = <70>;      // changed from 150 to 50 (faster ramp)
     delay-ms = <0>;
-    exit-after-releases = <0>;
 };
 
 &mmv {
