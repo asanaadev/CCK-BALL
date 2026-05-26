@@ -15,7 +15,7 @@
 &msc {
     acceleration-exponent = <1>;      // changed from 0 to 1
     time-to-max-speed-ms = <50>;      // changed from 150 to 50 (faster ramp)
-    delay-ms = <0>;                   // keep as is
+    delay-ms = <0>;
 };
 
 &mmv {
